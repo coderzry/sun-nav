@@ -29,6 +29,11 @@ export default defineConfig({
       path: '/table',
       component: './Table',
     },
+    {
+      name: '导航',
+      path: '/nav',
+      component: './Nav',
+    },
   ],
   npmClient: 'pnpm',
 });
