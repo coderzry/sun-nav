@@ -1,0 +1,40 @@
+.container {
+  .card {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 0px 20px -5px rgba(158,158,158,.2);
+    transition: background-color .3s;
+    border-radius: 4px;
+    width: 160px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+
+    .left {
+      margin-right: 8px;
+      .img {
+        width: 40px;
+      }
+    }
+
+    .right {
+      .title {
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .desc {
+        width: 60px;
+        margin-top: 2px;
+        color: #6c757d;
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+  }
+}
