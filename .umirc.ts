@@ -12,7 +12,7 @@ export default defineConfig({
   routes: [
     {
       path: '/',
-      redirect: '/nav',
+      redirect: '/nav-write',
     },
     // {
     //   name: '首页',
@@ -30,9 +30,16 @@ export default defineConfig({
     //   component: './Table',
     // },
     {
-      name: 'AI大全',
-      path: '/nav',
+      name: 'AI写作工具',
+      path: '/nav-write',
       component: './Nav',
+      icon: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
+    },
+    {
+      name: 'AI图像工具',
+      path: '/nav-image',
+      component: './NavImage',
+      icon: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
     },
   ],
   npmClient: 'pnpm',
