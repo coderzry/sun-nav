@@ -30,7 +30,7 @@ export default defineConfig({
     //   component: './Table',
     // },
     {
-      name: 'AI导航',
+      name: 'AI大全',
       path: '/nav',
       component: './Nav',
     },
